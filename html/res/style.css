@@ -1,0 +1,166 @@
+body {
+	background-color: #242627;
+	font-family: arial,sans-serif;
+}
+a {
+	color: #A69F96;
+	text-decoration-color:  currentColor;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#logo {
+	position: absolute;
+	top: 10%;
+	right: 40%;
+	left: 40%;
+	bottom: 40%;
+}
+#search-bar-div {
+	position: absolute;
+	height: 38px;
+	top: 28%;
+	right: 29%;
+	left: 28%;
+	bottom: 66%;
+	border: 1px solid #5F6368;
+	border-radius: 24px;
+	max-width: 584px;
+	/*Google class .RNNXgb*/
+	box-shadow: 0 0 2px 0 rgba(242, 242, 242, 0.16), 0 0 0 1px rgba(242, 242, 242, 0.08) !important
+}
+#search-bar-textarea {
+	position: relative;
+	width: 80%;
+	height: 30px;
+	left: 10%;
+	border: 1px solid;
+	align-self: center;
+	border: none;
+	/*border: 1px solid black;*/
+	background: 0;
+	color: #FFFFFF;
+	margin-top: 3px;
+}
+#search-div {
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	top: 40%;
+	left: 40%;
+}
+#luck-div {
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	top: 40%;
+	left: 51%;
+}
+#footer-div {
+	background-color: #1C1E1E;
+	position: absolute;
+	width: 100%;
+	height: 15%;
+	bottom: 0%;
+	right: 0%;
+}
+#upper-footer-div = {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	top: 0%;
+	left: 0%;
+	bottom: 50%;
+	right: 100%;
+}
+#lower-footer-div {
+	position: relative;
+	top: 50%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	width: 100%;
+	height: 30%;
+}
+#about-google {
+	left: 3%;
+}
+#google-campaign {
+	left: 5%;
+}
+#google-bussiness {
+	left: 7%;
+}
+#how-search-works {
+	left: 9%;
+}
+#never-heard-about-privacy {
+	left: 47%;
+}
+#google-tos {
+	left: 49%;
+}
+#google-settings {
+	left: 51%;
+}
+#country-text {
+	font-weight: normal;
+	color: #A69F96;
+	top: 99%;
+	bottom: 100%;
+}
+#upper-div {
+	position: absolute;
+	width: 99%;
+	height: 10%;
+}
+#user-img {
+	position: relative;
+	right: 0%;
+	left: 85%;
+	top: -4px;
+	border-radius: 50%;
+	padding: 10px;
+}
+#apps-img {
+	position: relative;
+	right: 0%;
+	left: 85%;
+	top: -22%;
+}
+#gmail-link {
+	left: 82%;
+}
+
+.upper-div-links {
+	font-size: 13px;
+	color: white;
+	position: relative;
+	top: -37%;
+	left: 83%;
+}
+.submit-buttons {
+	background-color: #2F3233;
+	position: relative;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: sub;
+	border-radius: 4px;
+	color: white;
+	top: 0%;
+	left: 0%;
+	bottom: 50%;
+	right: 50%;
+	width: 100%;
+	height: 100%;
+	border: 1px solid;
+	border-top-color: #6D675C;
+	border-left-color: #6D675C;
+	border-right-color: #6D675C;
+	border-bottom-color: #6D675C;
+}
+.footer-links {
+	position: relative;
+	left: 3%;
+	top: 5%;
+}

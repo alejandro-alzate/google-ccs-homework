@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="res/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Google</title>
+</head>
+<body>
+	<div id="upper-div">
+		<a class="upper-div-links" id="gmail-link" href="https://mail.google.com/mail/&ogbl">Gmail</a>
+		<a class="upper-div-links" href="https://www.google.com/imghp?hl=es-419&ogbl">Imágenes</a>
+		<a href="">
+			<img src="res/apps.png" id="apps-img">
+		</a>
+		<a id="user-llink" href="https://accounts.google.com/SignOutOptions?hl=es-419&continue=https://www.google.com/">
+			<img id="user-img" src="res/user.png">
+		</a>
+	</div>
+	<div id="logo">
+		<img src="res/googlelogo.png">
+	</div>
+	<div id="search-bar-div">
+		<textarea
+		id="search-bar-textarea"
+		type="text" rows="1"
+		autocomplete="off"
+		autocapitalize="none"
+		autofocus=""
+		title="Buscar"
+		max-lenght="2048"></textarea>
+	</div>
+	<div id="search-div">
+		<button id="search" onclick="searchButton()" class="submit-buttons">Buscar con Google</button>
+	</div>
+	<div id="luck-div">
+		<button id="luck" type="button" class="submit-buttons" value="" href="" onclick="luckButton()">Voy a tener suerte</buttons>
+	</div>
+	<footer>
+		<div id="footer-div">
+			<div id="upper-footer-div">
+				<b id="country-text" class="footer-links">Colombia</b>
+			</div>
+			<div id="lower-footer-div">
+				<a id="about-google" class="footer-links" href="https://about.google/?utm_source=google-CO&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+				<!--No podia poner como id google-ads por el bloqueador de anuncios jajaja-->
+				<a id="google-campaign" class="footer-links" href="https://www.google.com/intl/es-419_co/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicidad</a>
+				<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2" class="footer-links" id="google-bussiness">Negocios</a>
+				<a href="https://google.com/search/howsearchworks/?fg=1" id="how-search-works" class="footer-links">Cómo funciona la Búsqueda</a>
+				<a href="https://policies.google.com/privacy?hl=es-419&fg=1" class="footer-links" id="never-heard-about-privacy">Privacidad</a>
+				<a href="https://policies.google.com/terms?hl=es-419&fg=1" class="footer-links" id="google-tos">Condiciones</a>
+				<a onclick="luckButton()" class="footer-links" id="google-settings">Preferencias</a>
+			</div>
+		</div>
+	</footer>
+	<script src="res/script.js"></script>
+	<!--No se que pasa que no se aplica el estilo de "colombia" solo revise fixCountryPos() y #country-text para ver más...-->
+</body>
+</html>
