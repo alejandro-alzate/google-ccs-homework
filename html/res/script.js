@@ -3,10 +3,10 @@ function luckButton() {
 }
 
 function searchButton() {
-	var irlGoogle = 'https://www.google.com/search?q="';
+	var irlGoogle = 'https://www.google.com/search?q=';
 	var query = document.getElementById('search-bar-textarea').value;
 	if (query != "") {
-		document.location = irlGoogle + query + '"';
+		document.location = irlGoogle + query;
 	} else {
 		return false;
 	}

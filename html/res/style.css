@@ -171,6 +171,8 @@ a {
 	top: -4px;
 	border-radius: 50%;
 	padding: 10px;
+	width: 32px;
+	height: 32px;
 }
 #apps-img {
 	position: relative;
