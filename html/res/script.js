@@ -15,6 +15,6 @@ function searchButton() {
 function fixCountryPos() {
 	setTimeout(function() {
 	document.getElementById('country-text').style['top'] = "100%";
-}, 10);}
+}, 50);}
 
 fixCountryPos()
