@@ -36,7 +36,19 @@ nav .nav-right-section {
 }
 
 nav .nav-right-section .menu-icono {
-	background-image: url("img/dots-menu.png");
+	background-image: url("../img/dots-menu.png");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+nav .nav-right-section .foto-icono {
+	background-image: url("../img/user.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
 }
