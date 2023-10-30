@@ -4,20 +4,52 @@
 		"selected_items":
 		[
 			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"ma",
+				"main-input-container"
+			],
+			[
+				"alin",
+				"align-items"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"main-",
+				"main-input"
+			],
+			[
+				"teal",
+				"text-align"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
 				"co",
 				"contain"
 			],
 			[
 				"bgsi",
 				"background-size"
-			],
-			[
-				"ba",
-				"background"
-			],
-			[
-				"ma",
-				"margin-right"
 			],
 			[
 				"fle",
@@ -68,12 +100,24 @@
 		"selected_items":
 		[
 			[
-				"sett",
-				"Preferences: Settings"
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"termina",
+				"Terminal: Open in project folder"
 			],
 			[
 				"ins",
 				"Package Control: Install Package"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
 			],
 			[
 				"insta",
@@ -82,10 +126,6 @@
 			[
 				"settin",
 				"Preferences: Settings"
-			],
-			[
-				"lua",
-				"Set Syntax: Lua"
 			],
 			[
 				"mer",
@@ -114,9 +154,8 @@
 	[
 		"/home/alejandro/Documentos/google-ccs-homework",
 		"/home/alejandro/Documentos/google-ccs-homework/html",
-		"/home/alejandro/Documentos/google-ccs-homework/html/house",
-		"/home/alejandro/Documentos/google-ccs-homework/html/house/res",
-		"/home/alejandro/Documentos/google-ccs-homework/html/institution"
+		"/home/alejandro/Documentos/google-ccs-homework/html/institution",
+		"/home/alejandro/Documentos/google-ccs-homework/html/institution/css"
 	],
 	"file_history":
 	[
@@ -128,7 +167,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -142,6 +181,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section",
 			"Hola"
 		],
 		"highlight": true,
@@ -169,11 +209,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 33.0
 	},
 	"input":
 	{
-		"height": 38.0
+		"height": 55.0
 	},
 	"layout":
 	{
@@ -206,7 +246,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

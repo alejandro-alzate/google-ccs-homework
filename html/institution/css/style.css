@@ -89,3 +89,18 @@ main .main-input-container img {
 	height: 25px;
 	object-fit: contain;
 }
+
+main .main-input-container input {
+	width: 75%;
+	height: 40px;
+	border: none;
+	background: transparent;
+	outline: none;
+	color: white;
+}
+
+.main-input-container:hover {
+	background-color: #303134;
+	border: 1px solid #303134;
+	box-shadow: 0px 0px 10px 0px rbga(0, 0, 0, 1);
+}
