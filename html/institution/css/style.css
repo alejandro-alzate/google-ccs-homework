@@ -104,3 +104,49 @@ main .main-input-container input {
 	border: 1px solid #303134;
 	box-shadow: 0px 0px 10px 0px rbga(0, 0, 0, 1);
 }
+
+main .main-buttons {
+	width: 530px;
+	padding-top:  20px;
+	margin: 0 auto;
+}
+
+main .main-buttons div {
+
+}
+
+.main-buttons button {
+	background-color: #303134;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+.main-buttons button:hover {
+	border: solid 2px gray;
+}
+
+footer {
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	bottom: 0%;
+}
+
+footer .footer-region {
+	padding: 15px 60px;
+}
+
+
+footer .footer-right-left {
+	padding: 0 10px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+}

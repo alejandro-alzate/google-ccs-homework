@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #212324;
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
+}
+
+header nav .nav-right-section {
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+nav .nav-right-section .menu-icono {
+    background-image: url("img/dots-menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+nav .nav-right-section .foto-icono {
+    background-image: url("img/falcao.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+main .main-logo img {
+    width: 270px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-input-container{
+    width: 525px;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+main .main-input-container input {
+    width: 75%;
+    height: 40px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #FFF;
+}
+
+.main-input-container:hover{
+    background-color: #303134;
+    border: 1px solid #303134;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 1);
+}
